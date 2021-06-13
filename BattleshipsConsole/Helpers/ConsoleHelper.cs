@@ -63,6 +63,7 @@ namespace BattleshipsConsole.Helpers
             {
                 bottomLine += $" {i} ";
             }
+
             WriteLine(bottomLine);
         }
 
@@ -96,7 +97,6 @@ namespace BattleshipsConsole.Helpers
             Console.ForegroundColor = colour;
             Console.WriteLine(str);
             Console.ResetColor();
-
         }
 
         public char GetInput()
@@ -154,6 +154,7 @@ namespace BattleshipsConsole.Helpers
                     // Close bracket
                     WriteColourString("]", ConsoleColor.Blue);
                 }
+
                 // EOL
                 WriteColourString(Environment.NewLine, ConsoleColor.Blue);
             }
@@ -166,6 +167,7 @@ namespace BattleshipsConsole.Helpers
             {
                 bottomLine += $" {i} ";
             }
+
             WriteLine(bottomLine);
         }
 

@@ -6,7 +6,6 @@ namespace BattleshipsClassLibrary.Models.Players
 {
     public class Player
     {
-        public int PlayerNumber { get; set; }
         public Grid MyGrid { get; set; }
         public Grid FiringGrid { get; set; }
         public List<Ship> Ships { get; set; }

@@ -42,7 +42,6 @@ namespace BattleshipsClassLibrary.Models.Games
             var grid = GetPlayer(playerId).MyGrid;
 
             // Use a ship placer helper to check all the cells along the placement area
-
             bool isPlacementValid = ShipPlacementHelper.IsValidPlacementArea(ship, originCoordinate, orientation, grid);
 
             // If valid placement area

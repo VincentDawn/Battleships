@@ -164,14 +164,12 @@ namespace Battleships
                     {
                         ConsoleHelper.PrintVictoryMessage();
 
-                        // Press any key to end the game
                         ConsoleHelper.WriteLine("Press any key to exit.");
                         ConsoleHelper.GetInput();
                         Environment.Exit(0);
                     }
                     else
                     {
-                        // Press any key to end the game
                         ConsoleHelper.WriteLine("Press any key to end your turn.");
                         ConsoleHelper.GetInput();
                     }
